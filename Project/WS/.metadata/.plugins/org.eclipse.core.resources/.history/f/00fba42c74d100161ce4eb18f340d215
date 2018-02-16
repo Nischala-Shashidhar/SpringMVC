@@ -1,0 +1,22 @@
+package com.cts;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class MyController {
+@RequestMapping("loginApplication")
+	public ModelAndView loginApplication(@RequestParam("userName") String userName) {
+		ModelAndView result;
+		if("user".equals(userName)){
+			result= new ModelAndView("welcomePage");
+			
+		}
+		else{
+			result= new ModelAndView("index");
+		}
+		
+		return result;
+	}}

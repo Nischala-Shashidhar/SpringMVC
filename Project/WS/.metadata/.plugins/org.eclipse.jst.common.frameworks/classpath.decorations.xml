@@ -1,0 +1,7 @@
+<classpath>
+  <container id="Second!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/Spring_MVC_training/Project/WS/Second/WebContent/WEB-INF/lib/commons-lang.jar">
+      <source-attachment-path>/Second/WebContent/WEB-INF/lib/antlr-2.7.6.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

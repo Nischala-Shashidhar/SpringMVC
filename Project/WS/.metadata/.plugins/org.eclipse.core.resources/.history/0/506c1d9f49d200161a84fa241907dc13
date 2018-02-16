@@ -1,0 +1,10 @@
+package com.cts.dao;
+
+public interface ArticleDAO {
+	// To Save the article detail
+	public void saveArticle (Article Article );
+	
+	// To get list of all articles
+	public List<Article> listArticles();
+}
+

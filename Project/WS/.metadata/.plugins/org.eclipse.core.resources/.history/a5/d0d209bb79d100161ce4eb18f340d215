@@ -1,0 +1,5 @@
+package com.cts.logger.copy;
+
+public class LoggerInterceptor {
+
+}

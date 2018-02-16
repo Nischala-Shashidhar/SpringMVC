@@ -1,0 +1,10 @@
+package com.cts.service;
+
+import com.cts.entity.Article;
+
+public interface ArticleService {
+	public void addArticle(Article article);
+
+	public List<Article> listArticles();
+
+}

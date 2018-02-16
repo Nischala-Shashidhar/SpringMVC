@@ -1,0 +1,8 @@
+package com.cts.service;
+
+public interface ArticleService {
+	public void addArticle(Article article);
+
+	public List<Article> listArticles();
+
+}
